@@ -19,10 +19,10 @@
 
 | Field | Details |
 |-------|---------|
-| **Name** | [Your Full Name] |
-| **Email** | [your.email@example.com] |
+| **Name** | Shreyash Dayanand Patil |
+| **Email** | shreyashpatil@gmail.com |
 | **LinkedIn** | [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile) |
-| **Submission Date** | [October 2024] |
+| **Submission Date** | 3 October 2024 |
 | **Position** | Data Science - Web3 Trading Team |
 
 ---
@@ -72,8 +72,8 @@ ds_<your_name>/
 |-----------|---------|
 | **Source** | Hyperliquid Decentralized Exchange |
 | **Total Records** | 211,224 entries |
-| **Time Period** | [Start Date] - [End Date] |
-| **Unique Traders** | [XXX accounts] |
+| **Time Period** | 1-10-2025 - 2-10-2025 |
+| **Unique Traders** | 211,224 accounts |
 | **Trading Pairs** | Multiple crypto pairs |
 | **Memory Usage** | 24.4+ MB |
 | **Missing Values** | 0 (Complete dataset) |
@@ -101,8 +101,8 @@ ds_<your_name>/
 | Attribute | Details |
 |-----------|---------|
 | **Source** | Market Sentiment Aggregator |
-| **Total Records** | [XXX entries] |
-| **Time Period** | [Start Date] - [End Date] |
+| **Total Records** | 2,644 entries |
+| **Time Period** | 2-10-25  - 3-10-25 |
 | **Missing Values** | 0 (Complete dataset) |
 | **Classification** | Binary (Fear/Greed) |
 
@@ -119,7 +119,7 @@ ds_<your_name>/
 Both notebooks are publicly accessible with full code, visualizations, and detailed analysis.
 
 ### Notebook 1: Historical Trader Data Analysis
-🔗 **[Open in Colab](YOUR_COLAB_LINK_1_HERE)**
+🔗 **[Open in Colab](https://colab.research.google.com/drive/18GtDgjIiyncP9y0SycYO1zqOhQysg5Tc?usp=sharing)**
 
 **Analysis Includes:**
 - ✅ Data cleaning and preprocessing
@@ -131,7 +131,7 @@ Both notebooks are publicly accessible with full code, visualizations, and detai
 - ✅ Temporal pattern identification
 
 ### Notebook 2: Fear & Greed Index Analysis
-🔗 **[Open in Colab](YOUR_COLAB_LINK_2_HERE)**
+🔗 **[Open in Colab](https://colab.research.google.com/drive/1hQuDal4FjIIiBiOfQ8K5cbxuMaIiAcUl?usp=sharing)**
 
 **Analysis Includes:**
 - ✅ Sentiment classification distribution
@@ -331,9 +331,9 @@ jupyter notebook notebook_1.ipynb
 | **Total Data Records Analyzed** | 211,224+ records |
 | **Dataset Size** | 24.4+ MB |
 | **Data Columns** | 16 (Trader) + 4 (Sentiment) |
-| **Visualizations Created** | [XX charts] |
+| **Visualizations Created** | 12 charts |
 | **Statistical Tests Performed** | [XX tests] |
-| **Analysis Duration** | [X weeks] |
+| **Analysis Duration** | 2 Dyas |
 | **Report Pages** | [XX pages] |
 | **Missing Values** | 0 (100% complete data) |
 
@@ -387,9 +387,9 @@ I'm actively seeking opportunities in Data Science and Web3 analytics. Let's con
 
 <div align="center">
 
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@example.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yourprofile)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yourusername)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](shreyashpatil530@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shreyash-patil-ba921737b/)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ShreyashPatil530)
 
 </div>
 
@@ -422,9 +422,9 @@ I'm actively seeking opportunities in Data Science and Web3 analytics. Let's con
 
 ---
 
-*Last Updated: [Current Date]*
+*Last Updated: 3-10-2025*
 
-**Submitted by [Your Name]**  
+**Submitted by: Shreyash Dayanand Patil**  
 *Data Science Assignment - Web3 Trading Team*
 
 </div>
