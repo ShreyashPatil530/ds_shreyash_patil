@@ -19,10 +19,10 @@
 
 | Field | Details |
 |-------|---------|
-| **Name** | [Your Full Name] |
-| **Email** | [your.email@example.com] |
-| **LinkedIn** | [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile) |
-| **Submission Date** | [October 2024] |
+| **Name** | [Shreyash Dayanand Patil] |
+| **Email** | [shreyashpatil530@gmail.com] |
+| **LinkedIn** | [linkedin.com/in/yourprofile](https://www.linkedin.com/in/shreyash-patil-ba921737b/) |
+| **Submission Date** | [3 October 2025] |
 | **Position** | Data Science - Web3 Trading Team |
 
 ---
@@ -42,7 +42,7 @@ This project analyzes the intricate relationship between **trader behavior** and
 ## 📁 Repository Structure
 
 ```
-ds_<your_name>/
+ds_shreyash_patil/
 │
 ├── 📓 notebook_1.ipynb          # Historical Trader Data Analysis
 ├── 📓 notebook_2.ipynb          # Fear & Greed Index Analysis
@@ -408,9 +408,9 @@ I'm actively seeking opportunities in Data Science and Web3 analytics. Let's con
 
 ---
 
-*Last Updated: [Current Date]*
+*Last Updated: [3 oct 2025]*
 
-**Submitted by [Your Name]**  
+**Submitted by [shreyash patil]**  
 *Data Science Assignment - Web3 Trading Team*
 
 </div>
