@@ -19,10 +19,10 @@
 
 | Field | Details |
 |-------|---------|
-| **Name** | Shreyash Dayanand Patil |
-| **Email** | shreyashpatil530@gmail.com |
-| **LinkedIn** | [linkedin.com/in/yourprofile](https://www.linkedin.com/in/shreyash-patil-ba921737b/) |
-| **Submission Date** | 3 October 2024 |
+| **Name** | [Your Full Name] |
+| **Email** | [your.email@example.com] |
+| **LinkedIn** | [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile) |
+| **Submission Date** | [October 2024] |
 | **Position** | Data Science - Web3 Trading Team |
 
 ---
@@ -72,8 +72,8 @@ ds_<your_name>/
 |-----------|---------|
 | **Source** | Hyperliquid Decentralized Exchange |
 | **Total Records** | 211,224 entries |
-| **Time Period** | 1-10-2025 - 2-10-2025 |
-| **Unique Traders** | 211,224 accounts |
+| **Time Period** | [Start Date] - [End Date] |
+| **Unique Traders** | [XXX accounts] |
 | **Trading Pairs** | Multiple crypto pairs |
 | **Memory Usage** | 24.4+ MB |
 | **Missing Values** | 0 (Complete dataset) |
@@ -101,8 +101,8 @@ ds_<your_name>/
 | Attribute | Details |
 |-----------|---------|
 | **Source** | Market Sentiment Aggregator |
-| **Total Records** | 2,644 entries |
-| **Time Period** | 2-10-25  - 3-10-25 |
+| **Total Records** | [XXX entries] |
+| **Time Period** | [Start Date] - [End Date] |
 | **Missing Values** | 0 (Complete dataset) |
 | **Classification** | Binary (Fear/Greed) |
 
@@ -119,7 +119,7 @@ ds_<your_name>/
 Both notebooks are publicly accessible with full code, visualizations, and detailed analysis.
 
 ### Notebook 1: Historical Trader Data Analysis
-🔗 **[Open in Colab](https://colab.research.google.com/drive/18GtDgjIiyncP9y0SycYO1zqOhQysg5Tc?usp=sharing)**
+🔗 **[Open in Colab](YOUR_COLAB_LINK_1_HERE)**
 
 **Analysis Includes:**
 - ✅ Data cleaning and preprocessing
@@ -131,7 +131,7 @@ Both notebooks are publicly accessible with full code, visualizations, and detai
 - ✅ Temporal pattern identification
 
 ### Notebook 2: Fear & Greed Index Analysis
-🔗 **[Open in Colab](https://colab.research.google.com/drive/1hQuDal4FjIIiBiOfQ8K5cbxuMaIiAcUl?usp=sharing)**
+🔗 **[Open in Colab](YOUR_COLAB_LINK_2_HERE)**
 
 **Analysis Includes:**
 - ✅ Sentiment classification distribution
@@ -176,25 +176,29 @@ Fear Periods ⚡ Greed Periods → Statistical Testing → Insights
 
 ## <a name="key-findings"></a>🎯 Key Findings
 
-### 1. 📉 Profitability Patterns
-> **[Insert your finding]**  
-> Example: "Traders achieved 18% higher average returns during Fear periods compared to Greed periods (p < 0.05), suggesting contrarian opportunities."
+### 1. 📉 Market Sentiment Distribution
+> **Fear Dominates the Market**: Analysis shows 790 Fear days vs 640 Greed days from 2018-2025. Extreme Fear (510 days) occurred more frequently than Extreme Greed (330 days), indicating prolonged periods of market pessimism.
 
-### 2. ⚖️ Leverage Behavior
-> **[Insert your finding]**  
-> Example: "Average leverage usage increased by 23% during Greed phases, correlating with a 31% increase in loss probability."
+### 2. ⚖️ Trading Behavior Patterns
+> **Balanced Trading Activity**: Nearly equal distribution between BUY (48.6%) and SELL (51.4%) positions, with a slight selling bias suggesting cautious risk management across the trader population.
 
-### 3. 📊 Volume Dynamics
-> **[Insert your finding]**  
-> Example: "Trading volume spiked by 45% within 2 days before sentiment transitions, serving as a potential predictive signal."
+### 3. 📊 Profitability Insights
+> **Short Positions More Profitable**: SELL side generated $6.5M total profit vs BUY side's $3.7M - a 75% profitability advantage. This suggests successful traders capitalize on market downturns and volatility.
 
-### 4. 🔄 Sentiment Transitions
-> **[Insert your finding]**  
-> Example: "The 3-day window following Fear→Greed transitions showed 27% higher trading opportunities with improved risk-reward ratios."
+### 4. 💎 Trader Concentration
+> **Power Law Distribution**: Top trader accumulated $2.15M profit, while the top 10 traders captured disproportionate gains. The most active trader executed 40,000+ trades, indicating professional/algorithmic trading presence.
 
-### 5. 👥 Trader Segmentation
-> **[Insert your finding]**  
-> Example: "Top 20% of profitable traders exhibited consistent contrarian positioning and maintained leverage below 5x regardless of sentiment."
+### 5. 🪙 Asset Concentration
+> **Bitcoin Dominance**: BTC accounted for $650M+ in trading volume - more than 4x the next largest asset (HYPE at ~$140M). Top 10 coins represent majority of platform activity.
+
+### 6. 📈 Activity Explosion (2024-2025)
+> **Exponential Growth Pattern**: Trading activity surged from <100 trades/day (2023-2024) to 6,000+ trades/day in early 2025. Daily P&L volatility increased dramatically with swings between -$400K to +$600K.
+
+### 7. 🎲 Size-Profit Relationship
+> **No Clear Correlation**: Scatter analysis reveals weak relationship between trade size and profitability (correlation <0.12). Skill and timing matter more than position sizing.
+
+### 8. 🔄 Sentiment Volatility Cycles
+> **Highest Volatility During Crashes**: 30-day rolling volatility peaked at 23 SD during 2020 market crash and 2022 bear market. Recent stability (5-10 SD) indicates more predictable sentiment patterns.
 
 ---
 
@@ -232,27 +236,98 @@ Fear Periods ⚡ Greed Periods → Statistical Testing → Insights
 
 ---
 
-## 📈 Visualizations
+## 📈 Visualizations & Analysis
 
-All visualizations are stored in the `outputs/` folder and referenced in the notebooks and report.
+All 17 visualizations are stored in the `outputs/` folder and provide comprehensive insights into trading patterns and market sentiment.
 
-### Sample Insights from Visualizations:
+### 📊 Fear & Greed Index Analysis (5 Charts)
 
-1. **PnL Distribution by Sentiment**
-   - Clear performance differences across market regimes
-   - [Add specific insight from your chart]
+**1. Distribution of Fear & Greed Index Values**
+- Shows bimodal distribution with peaks around 25 and 50
+- Market oscillates between fear and neutral sentiments
+- Clear visualization of sentiment concentration zones
 
-2. **Leverage Usage Over Time**
-   - Correlation between leverage and sentiment phases
-   - [Add specific insight from your chart]
+**2. Fear & Greed Index Over Time (2018-2025)**
+- 7-year timeline showing extreme volatility
+- Notable patterns: 2020 crash, 2021 bull run, 2022-2023 bear market
+- Recent 2024-2025 period shows increased greed sentiment
 
-3. **Volume vs Sentiment Timeline**
-   - Volume spikes preceding sentiment changes
-   - [Add specific insight from your chart]
+**3. 7-Day Rolling Average of Fear & Greed Index**
+- Smoothed trend lines reveal sustained sentiment periods
+- Helps identify sentiment regime changes
+- Clear cycles between fear and greed phases
 
-4. **Correlation Heatmap**
-   - Key relationships between variables
-   - [Add specific insight from your chart]
+**4. 30-Day Rolling Volatility**
+- Sentiment volatility ranges from 2 to 23 standard deviations
+- Highest volatility during 2020 and 2022 market crashes
+- Recent stability indicates more consistent market psychology
+
+**5. Fear vs Greed Days Count**
+- Fear: ~790 days | Extreme Fear: ~510 days | Neutral: ~400 days
+- Greed: ~640 days | Extreme Greed: ~330 days
+- Market spent more time in Fear than Greed overall
+
+### 💰 Trading Behavior Analysis (12 Charts)
+
+**6. Buy vs Sell Trades Distribution**
+- Nearly balanced: SELL (51.4%) vs BUY (48.6%)
+- Slight selling bias indicates risk-off behavior
+- Close to 50-50 split shows diverse trading strategies
+
+**7. Distribution of Profit/Loss**
+- Highly concentrated around zero (~210K trades near breakeven)
+- Most trades result in minimal P&L
+- Few extreme outliers in both profit and loss
+
+**8. Trade Size Distribution (USD)**
+- Extreme concentration in small trades (<$100K)
+- Over 1.6 million trades in smallest size bucket
+- Long tail indicates occasional large positions
+
+**9. Top 10 Traders by Total Profit**
+- Top trader: $2.15M profit
+- Power law distribution: Top 3 traders earned significantly more
+- Top 10 profitable traders identified with account hashes
+
+**10. Trade Size vs Closed PnL Scatter**
+- No clear linear relationship between size and profitability
+- Both BUY and SELL sides show wide P&L variance
+- Suggests skill matters more than position size
+
+**11. Number of Trades per Day**
+- Massive spike in activity from late 2024 onwards
+- Peak trading days: 6000+ trades/day in early 2025
+- Earlier periods (2023-2024): Very low activity (<100 trades/day)
+
+**12. Total Daily Profit/Loss Timeline**
+- Extreme volatility in 2025: Daily swings of -$400K to +$600K
+- Most profitable period: January-March 2025
+- 2023-2024: Stable with minimal daily P&L fluctuation
+
+**13. Total Profit by Side (Buy/Sell)**
+- SELL side significantly more profitable: $6.5M
+- BUY side total profit: $3.7M
+- Short positions generated 75% more profit than longs
+
+**14. Top 10 Coins by Trade Volume**
+- BTC dominates: ~$650M+ in trading volume
+- Top 5: BTC, HYPE, SOL, ETH, @4.07
+- Massive gap between BTC and other assets
+
+**15. Profit Distribution per Top Coin**
+- ETH shows highest profit variance (outliers up to $140K)
+- Most coins cluster around breakeven
+- TRUMP shows significant losses for some traders
+
+**16. Correlation Heatmap**
+- Strong correlation: Size USD ↔ Fee (0.75)
+- Weak correlations overall between price, position, and P&L
+- Suggests profitability driven by strategy, not single factors
+
+**17. Top 10 Traders by Number of Trades**
+- Most active trader: 40,000+ trades
+- High-frequency trading pattern evident
+- Top 10 traders account for significant volume
 
 ---
 
@@ -328,13 +403,13 @@ jupyter notebook notebook_1.ipynb
 
 | Metric | Value |
 |--------|-------|
-| **Total Data Records Analyzed** | 211,224+ records |
+| **Total Data Records Analyzed** | 211,224 records |
 | **Dataset Size** | 24.4+ MB |
+| **Time Period** | April 2023 - May 2025 |
 | **Data Columns** | 16 (Trader) + 4 (Sentiment) |
-| **Visualizations Created** | 12 charts |
-| **Statistical Tests Performed** | [XX tests] |
-| **Analysis Duration** | 2 Dyas |
-| **Report Pages** | [XX pages] |
+| **Visualizations Created** | 17 charts |
+| **Unique Traders** | [Count from your analysis] |
+| **Unique Coins Traded** | 10+ major cryptocurrencies |
 | **Missing Values** | 0 (100% complete data) |
 
 ---
@@ -387,9 +462,9 @@ I'm actively seeking opportunities in Data Science and Web3 analytics. Let's con
 
 <div align="center">
 
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](shreyashpatil530@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shreyash-patil-ba921737b/)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ShreyashPatil530)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@example.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yourprofile)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yourusername)
 
 </div>
 
@@ -422,9 +497,9 @@ I'm actively seeking opportunities in Data Science and Web3 analytics. Let's con
 
 ---
 
-*Last Updated: 3-10-2025*
+*Last Updated: [Current Date]*
 
-**Submitted by: Shreyash Dayanand Patil**  
+**Submitted by [Your Name]**  
 *Data Science Assignment - Web3 Trading Team*
 
 </div>
