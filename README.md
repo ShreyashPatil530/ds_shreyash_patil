@@ -19,10 +19,10 @@
 
 | Field | Details |
 |-------|---------|
-| **Name** | [Shreyash Dayanand Patil] |
-| **Email** | [shreyashpatil530@gmail.com] |
-| **LinkedIn** | [linkedin.com/in/yourprofile](https://www.linkedin.com/in/shreyash-patil-ba921737b/) |
-| **Submission Date** | [3 October 2025] |
+| **Name** | [Your Full Name] |
+| **Email** | [your.email@example.com] |
+| **LinkedIn** | [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile) |
+| **Submission Date** | [October 2024] |
 | **Position** | Data Science - Web3 Trading Team |
 
 ---
@@ -42,7 +42,7 @@ This project analyzes the intricate relationship between **trader behavior** and
 ## 📁 Repository Structure
 
 ```
-ds_shreyash_patil/
+ds_<your_name>/
 │
 ├── 📓 notebook_1.ipynb          # Historical Trader Data Analysis
 ├── 📓 notebook_2.ipynb          # Fear & Greed Index Analysis
@@ -71,34 +71,46 @@ ds_shreyash_patil/
 | Attribute | Details |
 |-----------|---------|
 | **Source** | Hyperliquid Decentralized Exchange |
-| **Records** | [X,XXX entries] |
+| **Total Records** | 211,224 entries |
 | **Time Period** | [Start Date] - [End Date] |
 | **Unique Traders** | [XXX accounts] |
 | **Trading Pairs** | Multiple crypto pairs |
+| **Memory Usage** | 24.4+ MB |
+| **Missing Values** | 0 (Complete dataset) |
 
-**Key Columns:**
-- `account` - Trader identifier
-- `symbol` - Trading pair
-- `execution_price` - Trade price
-- `size` - Position size
-- `side` - Long/Short position
-- `time` - Timestamp
-- `closedPnL` - Realized profit/loss
-- `leverage` - Position leverage
-- `event` - Trade event type
+**Key Columns (16 total):**
+- `Account` - Trader identifier (object)
+- `Coin` - Trading pair/cryptocurrency (object)
+- `Execution Price` - Trade execution price (float64)
+- `Size Tokens` - Position size in tokens (float64)
+- `Size USD` - Position size in USD (float64)
+- `Side` - Long/Short position (object)
+- `Timestamp IST` - Indian Standard Time timestamp (object)
+- `Timestamp` - Unix timestamp (float64)
+- `Start Position` - Initial position size (float64)
+- `Direction` - Trade direction (object)
+- `Closed PnL` - Realized profit/loss (float64)
+- `Transaction Hash` - Blockchain transaction ID (object)
+- `Order ID` - Unique order identifier (int64)
+- `Crossed` - Order crossed status (bool)
+- `Fee` - Transaction fee (float64)
+- `Trade ID` - Unique trade identifier (float64)
 
 ### 2️⃣ Bitcoin Fear & Greed Index
 
 | Attribute | Details |
 |-----------|---------|
 | **Source** | Market Sentiment Aggregator |
-| **Records** | [XXX entries] |
+| **Total Records** | [XXX entries] |
 | **Time Period** | [Start Date] - [End Date] |
+| **Missing Values** | 0 (Complete dataset) |
 | **Classification** | Binary (Fear/Greed) |
 
-**Key Columns:**
-- `Date` - Timestamp
-- `Classification` - Fear or Greed sentiment
+**Key Columns (4 total):**
+- `timestamp` - Unix timestamp (numeric)
+- `Value` - Fear & Greed index value (numeric)
+- `Classification` - Fear or Greed sentiment (categorical)
+- `date` - Date in standard format (date/object)
 
 ---
 
@@ -316,12 +328,14 @@ jupyter notebook notebook_1.ipynb
 
 | Metric | Value |
 |--------|-------|
-| **Total Code Lines** | [X,XXX lines] |
-| **Data Records Analyzed** | [XX,XXX+ records] |
+| **Total Data Records Analyzed** | 211,224+ records |
+| **Dataset Size** | 24.4+ MB |
+| **Data Columns** | 16 (Trader) + 4 (Sentiment) |
 | **Visualizations Created** | [XX charts] |
 | **Statistical Tests Performed** | [XX tests] |
 | **Analysis Duration** | [X weeks] |
 | **Report Pages** | [XX pages] |
+| **Missing Values** | 0 (100% complete data) |
 
 ---
 
@@ -408,9 +422,9 @@ I'm actively seeking opportunities in Data Science and Web3 analytics. Let's con
 
 ---
 
-*Last Updated: [3 oct 2025]*
+*Last Updated: [Current Date]*
 
-**Submitted by [shreyash patil]**  
+**Submitted by [Your Name]**  
 *Data Science Assignment - Web3 Trading Team*
 
 </div>
