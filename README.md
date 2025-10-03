@@ -386,7 +386,7 @@ A comprehensive PDF report (`ds_report.pdf`) is included in this repository with
 ```bash
 # Clone the repository
 git clone https://github.com/shreyashpatil530/ds_shreyash_patil.git
-cd ds_<your_name>
+cd ds_shreyash_patil
 
 # Install dependencies (if running locally)
 pip install pandas numpy matplotlib seaborn plotly scipy scikit-learn
