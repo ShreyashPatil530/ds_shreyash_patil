@@ -20,7 +20,7 @@
 | Field | Details |
 |-------|---------|
 | **Name** | Shreyash Dayanand Patil |
-| **Email** | shreyashpatil@gmail.com |
+| **Email** | shreyashpatil530@gmail.com |
 | **LinkedIn** | [linkedin.com/in/yourprofile](https://www.linkedin.com/in/shreyash-patil-ba921737b/) |
 | **Submission Date** | 3 October 2024 |
 | **Position** | Data Science - Web3 Trading Team |
